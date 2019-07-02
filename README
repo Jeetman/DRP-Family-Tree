@@ -1,0 +1,5 @@
+Run using "./generateTree.sh"
+Output will be in drp-family-tree.png
+Update input.tsv as newbies join the team.
+For infomation on modifying graph output, refer to graphviz documentation.
+
