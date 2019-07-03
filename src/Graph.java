@@ -94,7 +94,7 @@ public class Graph {
 
         //tree config settings
         writer.println("digraph DRP {\n"
-			                  + "concentrate=true;\n"
+			                  //+ "concentrate=true;\n"
                   		  + "center=true;\n"
                   			+ "ranksep=.75;\n"
                   			+ "\tedge [arrowsize=2.0];\n"
@@ -103,15 +103,15 @@ public class Graph {
         //sort the array list
         Collections.sort(generations);
 
-	//find the year of current generation
-	int current = generations.get(generations.size()-1);
+	      //find the year of current generation
+	      int current = generations.get(generations.size()-1);
 
         //add each year of DRP generations as nodes
         for (int gen : generations) {
-            if( gen < current) {
-		int step = gen + 1;
+            if( gen <= current) {
+		          int step = gen + 1;
             	writer.println("\"" + gen + "\" -> \"" + step + "\"");
-	    }
+	          }
         }
 
         // Print relations
