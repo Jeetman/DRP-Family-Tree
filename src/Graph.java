@@ -29,7 +29,7 @@ public class Graph {
         for (String s : lineList) {
             String[] cols = s.split("\t");
 
-            if (cols.length == 3) {
+            if (cols.length == 4) {
                 Person p;
 
                 if (!people.containsKey(cols[0])) {
@@ -55,7 +55,9 @@ public class Graph {
                 }
                 int gen = Integer.parseInt(cols[2]);
                 p.generation = gen;
-
+                if( (cols[3].trim()).equals("Yes") ) {
+                  p.captain = 1;
+                }
                 if (!generations.contains(gen))
                     generations.add(gen);
                 people.put(cols[0], p);
@@ -94,11 +96,11 @@ public class Graph {
 
         //tree config settings
         writer.println("digraph DRP {\n"
-			                  //+ "concentrate=true;\n"
+			                  + "bgcolor=white;\n"
                   		  + "center=true;\n"
                   			+ "ranksep=.75;\n"
-                  			+ "\tedge [arrowsize=2.0];\n"
-                  			+ "\tnode [color=lightblue2, fontsize=32, style=filled];" );
+                  			+ "\tedge [arrowsize=2.0, color=black];\n"
+                  			+ "\tnode [color=black, fontcolor=white,fontsize=32, style=filled];" );
 
         //sort the array list
         Collections.sort(generations);
@@ -108,7 +110,7 @@ public class Graph {
 
         //add each year of DRP generations as nodes
         for (int gen : generations) {
-            if( gen <= current) {
+            if( gen < current) {
 		          int step = gen + 1;
             	writer.println("\"" + gen + "\" -> \"" + step + "\"");
 	          }
@@ -119,6 +121,9 @@ public class Graph {
             Person p = people.get(name);
             for (Person little : p.littles) {
                 if (little.name.equals("")) continue;
+                if(p.captain == 1) {
+                  writer.println("\"" + p.name + "\"" + " [shape=diamond, color=crimson]");
+                }
                 writer.println("\"" + p.name + "\" -> \"" + little.name + "\"");
             }
         }

@@ -1,8 +1,9 @@
 digraph DRP {
+bgcolor=white;
 center=true;
 ranksep=.75;
-	edge [arrowsize=2.0];
-	node [color=lightblue2, fontsize=32, style=filled];
+	edge [arrowsize=2.0, color=black];
+	node [color=black, fontcolor=white,fontsize=32, style=filled];
 "2009" -> "2010"
 "2010" -> "2011"
 "2011" -> "2012"
@@ -12,9 +13,10 @@ ranksep=.75;
 "2015" -> "2016"
 "2016" -> "2017"
 "2017" -> "2018"
-"2018" -> "2019"
 "Rujual" -> "Rajan"
+"Shubhreen" [shape=diamond, color=crimson]
 "Shubhreen" -> "Simi"
+"Shubhreen" [shape=diamond, color=crimson]
 "Shubhreen" -> "Sager"
 "Amey" -> "Rajan"
 "Chandni" -> "Arjune"
@@ -22,9 +24,13 @@ ranksep=.75;
 "Jagroop" -> "Rujual"
 "Jagroop" -> "Dhruv"
 "Jagroop" -> "Aakash"
+"Luvreet" [shape=diamond, color=crimson]
 "Luvreet" -> "Anuj"
+"Luvreet" [shape=diamond, color=crimson]
 "Luvreet" -> "Chandni"
+"Luvreet" [shape=diamond, color=crimson]
 "Luvreet" -> "Navi"
+"Luvreet" [shape=diamond, color=crimson]
 "Luvreet" -> "Brinda"
 "Afsheen" -> "Sameer"
 "Ashna" -> "Neelam"
@@ -35,13 +41,18 @@ ranksep=.75;
 "Nimish" -> "Bhavik"
 "Nimish" -> "Parmeet"
 "Saatchi" -> "Ipsita"
+"Harji" [shape=diamond, color=crimson]
 "Harji" -> "Gurnaaz"
+"Harji" [shape=diamond, color=crimson]
 "Harji" -> "Amey"
+"Harji" [shape=diamond, color=crimson]
 "Harji" -> "Tanaya"
+"Harji" [shape=diamond, color=crimson]
 "Harji" -> "Ravina"
 "Manu" -> "Anushka"
 "Sahej" -> "Jennifer"
 "Rameet" -> "Ashmita"
+"Amar" [shape=diamond, color=crimson]
 "Amar" -> "Mansi"
 "Aman" -> "Shubhreen"
 "Aman" -> "Neha"
@@ -51,8 +62,11 @@ ranksep=.75;
 "Tushara" -> "Karishma"
 "Megan" -> "Saatchi"
 "Arjune" -> "Poonam"
+"Sartaj" [shape=diamond, color=crimson]
 "Sartaj" -> "Richa"
+"Sartaj" [shape=diamond, color=crimson]
 "Sartaj" -> "Ashmita"
+"Sartaj" [shape=diamond, color=crimson]
 "Sartaj" -> "Kamal"
 "Ikjot" -> "Rupinder"
 "Ikjot" -> "Shri"
@@ -72,6 +86,7 @@ ranksep=.75;
 "Akshay" -> "Pranav D"
 "Tania" -> "Maha"
 "Priyasha" -> "Arjune"
+"Simran" [shape=diamond, color=crimson]
 "Simran" -> "Ashna S"
 "Viva" -> "Ashna"
 "Viva" -> "Chandni"
@@ -85,9 +100,13 @@ ranksep=.75;
 "Gurnaaz" -> "Sahej"
 "Gurnaaz" -> "Ikjot"
 "Gurnaaz" -> "Rupinder"
+"Rohan" [shape=diamond, color=crimson]
 "Rohan" -> "Jackie"
+"Maneet" [shape=diamond, color=crimson]
 "Maneet" -> "Amit"
+"Maneet" [shape=diamond, color=crimson]
 "Maneet" -> "Anjleena"
+"Maneet" [shape=diamond, color=crimson]
 "Maneet" -> "Kiren"
 "Simi" -> "Gugi"
 "Simi" -> "Simran"
@@ -106,10 +125,15 @@ ranksep=.75;
 "Anuj" -> "Sartaj"
 "Ashmita" -> "Aanika"
 "Krish" -> "JT"
+"Rekha" [shape=diamond, color=crimson]
 "Rekha" -> "Koodrut"
+"Rekha" [shape=diamond, color=crimson]
 "Rekha" -> "Saleena"
+"Rekha" [shape=diamond, color=crimson]
 "Rekha" -> "Teji"
+"Sehj" [shape=diamond, color=crimson]
 "Sehj" -> "Aabjeet"
+"Sehj" [shape=diamond, color=crimson]
 "Sehj" -> "Akshay"
 "Rachna" -> "Sameer"
 "Rajan" -> "Amar"
@@ -117,11 +141,17 @@ ranksep=.75;
 "Anushka" -> "Raina"
 "Anushka" -> "Rekha"
 "Anushka" -> "Rameet"
+"Mehr" [shape=diamond, color=crimson]
 "Mehr" -> "Gugi"
+"Mehr" [shape=diamond, color=crimson]
 "Mehr" -> "Anjali"
+"Mehr" [shape=diamond, color=crimson]
 "Mehr" -> "Varsha"
+"Mehr" [shape=diamond, color=crimson]
 "Mehr" -> "Simron"
+"Pavan" [shape=diamond, color=crimson]
 "Pavan" -> "Harji"
+"Pavan" [shape=diamond, color=crimson]
 "Pavan" -> "Ashna"
 "Tanaya" -> "Sager"
 "Tanaya" -> "Mitthi"

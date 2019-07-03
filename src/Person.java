@@ -7,9 +7,11 @@ import java.util.List;
 public class Person {
     List<Person> littles = new ArrayList<>();
     int generation;
+    int captain;
     String name;
 
     public Person (String name) {
         this.name = name;
+        this.captain = 0;
     }
 }
