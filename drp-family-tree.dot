@@ -31,6 +31,7 @@ ranksep=.75;
 "Ashna" -> "Sahib"
 "Shri" -> "Nitya"
 "Richa" -> "Saroop"
+"Manreet" -> "Atharva"
 "Nimish" -> "Bhavik"
 "Nimish" -> "Parmeet"
 "Saatchi" -> "Ipsita"
@@ -54,6 +55,8 @@ ranksep=.75;
 "Sartaj" -> "Ashmita"
 "Sartaj" -> "Kamal"
 "Ikjot" -> "Rupinder"
+"Ikjot" -> "Shri"
+"Renu" -> "Jaspreet"
 "Akum" -> "Sahib"
 "Akum" -> "Manreet"
 "Akum" -> "Harmeena"
@@ -139,7 +142,7 @@ ranksep=.75;
 {rank=same "2014" "Amey" "Chandni" "Nimish" "Sahej" "Amit" "Angela" "Priyasha" "Rekha" "Ipsita"}
 {rank=same "2015" "Rameet" "Tushara" "Arjune" "Sartaj" "Ikjot" "Akum" "Sanika" "Simi" "Riya" "Brinda" "Sehj" "Rajan" "Navi" "Mehr" "Tanaya" "Manny"}
 {rank=same "2016" "Nikhil" "Ashmita" "Sahib"}
-{rank=same "2017" "Shri" "Richa" "Manreet" "Amar" "Saarthak" "Akshay" "Tania" "Simran" "Anjali" "Karishma"}
+{rank=same "2017" "Shri" "Richa" "Manreet" "Amar" "Renu" "Saarthak" "Akshay" "Tania" "Simran" "Anjali" "Karishma"}
 {rank=same "2018" "Varsha" "Nimisha" "Shivani" "Harmeena" "Bani" "Saroop" "Kamal" "Aman S" "Maha" "Parmeet" "Nitya" "Pranav D" "Vuong" "Aabjeet" "Atharva" "Ashna S" "Aanika" "Jaspreet"}
 {rank=source "Rohan" "2009"}
 }
