@@ -13,13 +13,18 @@ ranksep=.75;
 "2015" -> "2016"
 "2016" -> "2017"
 "2017" -> "2018"
+"2018" -> "2019"
 "Rujual" -> "Rajan"
 "Shubhreen" [shape=diamond, color=crimson]
 "Shubhreen" -> "Simi"
 "Shubhreen" [shape=diamond, color=crimson]
 "Shubhreen" -> "Sager"
+"Nimisha" -> "Akshat"
 "Amey" -> "Rajan"
+"Shivani" -> "Ambika"
+"Aishwarya" -> "Isana"
 "Chandni" -> "Arjune"
+"Harmeena" -> "Dilraj"
 "Neha" -> "Priyasha"
 "Jagroop" -> "Rujual"
 "Jagroop" -> "Dhruv"
@@ -35,9 +40,11 @@ ranksep=.75;
 "Afsheen" -> "Sameer"
 "Ashna" -> "Neelam"
 "Ashna" -> "Sahib"
+"Bani" -> "Vedparkash"
 "Shri" -> "Nitya"
 "Richa" -> "Saroop"
 "Manreet" -> "Atharva"
+"Manreet" -> "Arjun"
 "Nimish" -> "Bhavik"
 "Nimish" -> "Parmeet"
 "Saatchi" -> "Ipsita"
@@ -54,6 +61,7 @@ ranksep=.75;
 "Rameet" -> "Ashmita"
 "Amar" [shape=diamond, color=crimson]
 "Amar" -> "Mansi"
+"Saroop" -> "Ananya"
 "Aman" -> "Shubhreen"
 "Aman" -> "Neha"
 "Amit" -> "Riya"
@@ -62,6 +70,7 @@ ranksep=.75;
 "Tushara" -> "Karishma"
 "Megan" -> "Saatchi"
 "Arjune" -> "Poonam"
+"Aman S" -> "Gurjap"
 "Sartaj" [shape=diamond, color=crimson]
 "Sartaj" -> "Richa"
 "Sartaj" [shape=diamond, color=crimson]
@@ -75,6 +84,7 @@ ranksep=.75;
 "Akum" -> "Manreet"
 "Akum" -> "Harmeena"
 "Saarthak" -> "Aman S"
+"Saarthak" -> "Akshat"
 "Dhruv" -> "Sehj"
 "Dhruv" -> "Tushara"
 "Dhruv" -> "Amit"
@@ -82,12 +92,17 @@ ranksep=.75;
 "Nikhil" -> "Renu"
 "Angela" -> "Riya"
 "Angela" -> "Ashmita"
+"Maha" -> "Jeevika"
 "Sanika" -> "Gugi"
 "Akshay" -> "Pranav D"
+"Akshay" -> "Sahil"
 "Tania" -> "Maha"
+"Tania" -> "Anjali R"
 "Priyasha" -> "Arjune"
 "Simran" [shape=diamond, color=crimson]
 "Simran" -> "Ashna S"
+"Simran" [shape=diamond, color=crimson]
+"Simran" -> "Aneet"
 "Viva" -> "Ashna"
 "Viva" -> "Chandni"
 "Jackie" -> "Gurnaaz"
@@ -123,7 +138,9 @@ ranksep=.75;
 "Anuj" -> "Ipsita"
 "Anuj" -> "Sanika"
 "Anuj" -> "Sartaj"
+"Nitya" -> "Sarayu"
 "Ashmita" -> "Aanika"
+"Ashmita" -> "Srihari"
 "Krish" -> "JT"
 "Rekha" [shape=diamond, color=crimson]
 "Rekha" -> "Koodrut"
@@ -137,10 +154,12 @@ ranksep=.75;
 "Sehj" -> "Akshay"
 "Rachna" -> "Sameer"
 "Rajan" -> "Amar"
+"Aabjeet" -> "Sarbjot"
 "Navi" -> "Nikhil"
 "Anushka" -> "Raina"
 "Anushka" -> "Rekha"
 "Anushka" -> "Rameet"
+"Aanika" -> "Anisha"
 "Mehr" [shape=diamond, color=crimson]
 "Mehr" -> "Gugi"
 "Mehr" [shape=diamond, color=crimson]
@@ -172,7 +191,8 @@ ranksep=.75;
 {rank=same "2014" "Amey" "Chandni" "Nimish" "Sahej" "Amit" "Angela" "Priyasha" "Rekha" "Ipsita"}
 {rank=same "2015" "Rameet" "Tushara" "Arjune" "Sartaj" "Ikjot" "Akum" "Sanika" "Simi" "Riya" "Brinda" "Sehj" "Rajan" "Navi" "Mehr" "Tanaya" "Manny"}
 {rank=same "2016" "Nikhil" "Ashmita" "Sahib"}
-{rank=same "2017" "Shri" "Richa" "Manreet" "Amar" "Renu" "Saarthak" "Akshay" "Tania" "Simran" "Anjali" "Karishma"}
+{rank=same "2017" "Simron" "Aishwarya" "Shri" "Richa" "Manreet" "Mitthi" "Amar" "Renu" "Saarthak" "Akshay" "Tania" "Simran" "Anjali" "Karishma" "Bhavik"}
 {rank=same "2018" "Varsha" "Nimisha" "Shivani" "Harmeena" "Bani" "Saroop" "Kamal" "Aman S" "Maha" "Parmeet" "Nitya" "Pranav D" "Vuong" "Aabjeet" "Atharva" "Ashna S" "Aanika" "Jaspreet"}
+{rank=same "2019" "Jeevika" "Ambika" "Anjali R" "Dilraj" "Anisha" "Arjun" "Vedparkash" "Sarbjot" "Isana" "Akshat" "Srihari" "Aneet" "Gurjap" "Sarayu" "Sahil" "Ananya"}
 {rank=source "Rohan" "2009"}
 }
